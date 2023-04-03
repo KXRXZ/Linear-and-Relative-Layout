@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/onebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Button 1" />
+
+    <Button
+        android:id="@+id/twobtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Button 2" />
+
+    <Button
+        android:id="@+id/threebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/onebtn"
+        android:layout_lignParentLeft="true"
+        android:text="Button 3" />
+
+    <Button
+        android:id="@+id/fourbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/onebtn"
+        android:layout_centerHorizontal="true"
+        android:text="Button 4" />
+
+    <Button
+        android:id="@+id/fourbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/twobtn"
+        android:layout_alignParentRight="true"
+        android:text="Button 5" />
+    <Button
+        android:id="@+id/sixbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/threebtn"
+        android:layout_alignParentLeft="true"
+        android:text="Button 6" />
+
+    <Button
+        android:id="@+id/sevenbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sixbtn"
+        android:layout_alignParentRight="true"
+        android:text="Button 7" />
+    <Button
+        android:id="@+id/eightbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sevenbtn"
+        android:layout_alignParentLeft="true"
+        android:text="Button 8" />
+
+    <Button
+        android:id="@+id/ninebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sevenbtn"
+        android:layout_alignParentRight="true"
+        android:text="Button 9" />
+    <Button
+        android:id="@+id/tenbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eightbtn"
+        android:layout_alignParentLeft="true"
+        android:text="Button 10" />
+    <Button
+        android:id="@+id/elevenbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ninebtn"
+        android:layout_centerHorizontal="true"
+        android:text="Button 11" />
+
+    <Button
+        android:id="@+id/twelvebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/elevenbtn"
+        android:layout_centerHorizontal="true"
+        android:text="Button 12" />
+    <Button
+        android:id="@+id/thirteenbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/twelvebtn"
+        android:layout_alignParentLeft="true"
+        android:text="Button 13" />
+    <Button
+        android:id="@+id/fourteenbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thirteenbtn"
+        android:layout_centerHorizontal="true"
+        android:text="Button 14" />
+    <Button
+        android:id="@+id/fifthteenbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fourteenbtn"
+        android:layout_alignParentRight="true"
+        android:text="Button 15" />
+
+
+
+</RelativeLayout>
